@@ -1,0 +1,96 @@
+###################################
+Biomes found during minecraft start
+###################################
+JungleEdge M
+Ocean
+Jungle M
+Beach
+Desert
+Mesa Plateau
+Ice Plains
+ForestHills
+Savanna Plateau
+Mega Spruce Taiga
+Birch Forest Hills M
+Mesa Plateau F M
+Taiga M
+Mesa Plateau F
+Swampland M
+River
+Stone Beach
+FrozenRiver
+Cold Beach
+DesertHills
+Desert M
+Cold Taiga
+Flower Forest
+The Void
+Hell
+MushroomIsland
+Roofed Forest M
+Birch Forest Hills
+Extreme Hills Edge
+FrozenOcean
+Mesa Plateau M
+Savanna
+Mesa (Bryce)
+Mega Taiga
+Redwood Taiga Hills M
+Ice Mountains
+TaigaHills
+JungleEdge
+Roofed Forest
+Cold Taiga Hills
+Jungle
+Deep Ocean
+Sunflower Plains
+Taiga
+Ice Plains Spikes
+Extreme Hills+ M
+Birch Forest M
+JungleHills
+Plains
+Mesa
+Extreme Hills
+Swampland
+MushroomIslandShore
+Birch Forest
+Savanna Plateau M
+The End
+Extreme Hills+
+Cold Taiga M
+Savanna M
+Extreme Hills M
+Forest
+Mega Taiga Hills
+########################################
+Biome Types found during minecraft start
+########################################
+RIVER
+SNOWY
+PLAINS
+BEACH
+OCEAN
+SANDY
+WET
+CONIFEROUS
+END
+DRY
+HILLS
+WATER
+RARE
+WASTELAND
+JUNGLE
+FOREST
+VOID
+HOT
+MOUNTAIN
+MESA
+SWAMP
+NETHER
+SPARSE
+COLD
+SPOOKY
+MUSHROOM
+DENSE
+SAVANNA
