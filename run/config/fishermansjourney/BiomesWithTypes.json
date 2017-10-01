@@ -1,200 +1,28 @@
 {
   "Biomes": [
     {
-      "JungleEdge M": [
-        "JUNGLE",
-        "HILLS",
-        "SPARSE",
-        "HOT",
-        "RARE"
-      ]
-    },
-    {
-      "Ocean": [
-        "WATER",
-        "OCEAN"
-      ]
-    },
-    {
-      "Jungle M": [
-        "JUNGLE",
-        "WET",
-        "MOUNTAIN",
-        "HOT",
-        "DENSE",
-        "RARE"
-      ]
-    },
-    {
       "Beach": [
         "BEACH"
       ]
     },
     {
-      "Desert": [
+      "Mesa Plateau M": [
+        "SAVANNA",
         "HOT",
-        "SANDY",
+        "MOUNTAIN",
+        "SPARSE",
+        "RARE",
         "DRY"
       ]
     },
     {
-      "Mesa Plateau": [
-        "SANDY",
-        "MESA"
-      ]
-    },
-    {
-      "Ice Plains": [
-        "COLD",
-        "SNOWY",
-        "WASTELAND"
-      ]
-    },
-    {
-      "ForestHills": [
-        "FOREST",
-        "HILLS"
-      ]
-    },
-    {
-      "Savanna Plateau": [
-        "SPARSE",
-        "HOT",
-        "PLAINS",
-        "SAVANNA",
-        "RARE"
-      ]
-    },
-    {
-      "Mega Spruce Taiga": [
-        "FOREST",
+      "Jungle M": [
         "DENSE",
-        "RARE"
-      ]
-    },
-    {
-      "Birch Forest Hills M": [
-        "MOUNTAIN",
-        "FOREST",
-        "DENSE",
-        "RARE"
-      ]
-    },
-    {
-      "Mesa Plateau F M": [
-        "DRY",
-        "HILLS",
-        "SPARSE",
         "HOT",
-        "RARE"
-      ]
-    },
-    {
-      "Taiga M": [
-        "COLD",
-        "MOUNTAIN",
-        "FOREST",
-        "CONIFEROUS",
-        "RARE"
-      ]
-    },
-    {
-      "Mesa Plateau F": [
-        "SANDY",
-        "MESA",
-        "SPARSE"
-      ]
-    },
-    {
-      "Swampland M": [
         "WET",
-        "HILLS",
-        "SWAMP",
-        "RARE"
-      ]
-    },
-    {
-      "River": [
-        "RIVER",
-        "WATER"
-      ]
-    },
-    {
-      "Stone Beach": [
-        "BEACH"
-      ]
-    },
-    {
-      "FrozenRiver": [
-        "COLD",
-        "RIVER",
-        "SNOWY",
-        "WATER"
-      ]
-    },
-    {
-      "Cold Beach": [
-        "COLD",
-        "SNOWY",
-        "BEACH"
-      ]
-    },
-    {
-      "DesertHills": [
-        "SANDY",
-        "DRY",
-        "HILLS",
-        "HOT"
-      ]
-    },
-    {
-      "Desert M": [
-        "SANDY",
-        "DRY",
-        "HOT",
-        "RARE"
-      ]
-    },
-    {
-      "Cold Taiga": [
-        "COLD",
-        "SNOWY",
-        "FOREST",
-        "CONIFEROUS"
-      ]
-    },
-    {
-      "Flower Forest": [
-        "FOREST",
-        "HILLS",
-        "RARE"
-      ]
-    },
-    {
-      "The Void": [
-        "VOID"
-      ]
-    },
-    {
-      "Hell": [
-        "HOT",
-        "DRY",
-        "NETHER"
-      ]
-    },
-    {
-      "MushroomIsland": [
-        "MUSHROOM",
-        "RARE"
-      ]
-    },
-    {
-      "Roofed Forest M": [
         "MOUNTAIN",
-        "SPOOKY",
-        "FOREST",
-        "DENSE",
-        "RARE"
+        "RARE",
+        "JUNGLE"
       ]
     },
     {
@@ -204,123 +32,304 @@
       ]
     },
     {
-      "Extreme Hills Edge": [
-        "MOUNTAIN"
+      "Deep Ocean": [
+        "OCEAN",
+        "WATER"
+      ]
+    },
+    {
+      "Stone Beach": [
+        "BEACH"
       ]
     },
     {
       "FrozenOcean": [
-        "COLD",
-        "SNOWY",
+        "OCEAN",
         "WATER",
-        "OCEAN"
+        "COLD",
+        "SNOWY"
       ]
     },
     {
-      "Mesa Plateau M": [
-        "MOUNTAIN",
-        "DRY",
-        "SPARSE",
-        "HOT",
-        "SAVANNA",
-        "RARE"
-      ]
-    },
-    {
-      "Savanna": [
-        "SPARSE",
-        "HOT",
-        "PLAINS",
-        "SAVANNA"
-      ]
-    },
-    {
-      "Mesa (Bryce)": [
-        "MOUNTAIN",
-        "DRY",
-        "SPARSE",
-        "HOT",
-        "SAVANNA",
-        "RARE"
-      ]
-    },
-    {
-      "Mega Taiga": [
+      "Taiga M": [
         "COLD",
         "CONIFEROUS",
-        "FOREST"
-      ]
-    },
-    {
-      "Redwood Taiga Hills M": [
         "FOREST",
-        "HILLS",
-        "DENSE",
+        "MOUNTAIN",
         "RARE"
       ]
     },
     {
-      "Ice Mountains": [
-        "COLD",
-        "SNOWY",
-        "MOUNTAIN"
+      "Birch Forest M": [
+        "DENSE",
+        "FOREST",
+        "HILLS",
+        "RARE"
       ]
     },
     {
-      "TaigaHills": [
-        "COLD",
+      "Birch Forest Hills M": [
+        "DENSE",
         "FOREST",
-        "HILLS",
-        "CONIFEROUS"
+        "MOUNTAIN",
+        "RARE"
       ]
     },
     {
       "JungleEdge": [
-        "JUNGLE",
-        "WET",
-        "FOREST",
         "HOT",
+        "FOREST",
+        "WET",
+        "RARE",
+        "JUNGLE"
+      ]
+    },
+    {
+      "Ice Mountains": [
+        "MOUNTAIN",
+        "COLD",
+        "SNOWY"
+      ]
+    },
+    {
+      "Mesa Plateau F": [
+        "SPARSE",
+        "SANDY",
+        "MESA"
+      ]
+    },
+    {
+      "Jungle": [
+        "DENSE",
+        "HOT",
+        "WET",
+        "JUNGLE"
+      ]
+    },
+    {
+      "Mesa Plateau": [
+        "SANDY",
+        "MESA"
+      ]
+    },
+    {
+      "Desert": [
+        "SANDY",
+        "HOT",
+        "DRY"
+      ]
+    },
+    {
+      "ForestHills": [
+        "FOREST",
+        "HILLS"
+      ]
+    },
+    {
+      "Hell": [
+        "HOT",
+        "NETHER",
+        "DRY"
+      ]
+    },
+    {
+      "MushroomIslandShore": [
+        "BEACH",
+        "RARE",
+        "MUSHROOM"
+      ]
+    },
+    {
+      "Redwood Taiga Hills M": [
+        "DENSE",
+        "FOREST",
+        "HILLS",
         "RARE"
       ]
     },
     {
-      "Roofed Forest": [
-        "SPOOKY",
+      "Mesa (Bryce)": [
+        "SAVANNA",
+        "HOT",
+        "MOUNTAIN",
+        "SPARSE",
+        "RARE",
+        "DRY"
+      ]
+    },
+    {
+      "Mesa": [
+        "SANDY",
+        "MESA"
+      ]
+    },
+    {
+      "Plains": [
+        "PLAINS"
+      ]
+    },
+    {
+      "Sunflower Plains": [
+        "RARE",
+        "PLAINS"
+      ]
+    },
+    {
+      "Extreme Hills+": [
+        "MOUNTAIN",
+        "SPARSE",
+        "FOREST"
+      ]
+    },
+    {
+      "DesertHills": [
+        "HOT",
+        "HILLS",
+        "SANDY",
+        "DRY"
+      ]
+    },
+    {
+      "Mesa Plateau F M": [
+        "HOT",
+        "HILLS",
+        "SPARSE",
+        "RARE",
+        "DRY"
+      ]
+    },
+    {
+      "Extreme Hills+ M": [
+        "MOUNTAIN",
+        "SPARSE",
+        "RARE"
+      ]
+    },
+    {
+      "Mega Spruce Taiga": [
+        "DENSE",
+        "RARE",
+        "FOREST"
+      ]
+    },
+    {
+      "Ocean": [
+        "OCEAN",
+        "WATER"
+      ]
+    },
+    {
+      "Forest": [
+        "FOREST"
+      ]
+    },
+    {
+      "Cold Beach": [
+        "BEACH",
+        "COLD",
+        "SNOWY"
+      ]
+    },
+    {
+      "Savanna": [
+        "SAVANNA",
+        "HOT",
+        "PLAINS",
+        "SPARSE"
+      ]
+    },
+    {
+      "Birch Forest": [
+        "FOREST"
+      ]
+    },
+    {
+      "Swampland": [
+        "WET",
+        "SWAMP"
+      ]
+    },
+    {
+      "Cold Taiga": [
+        "COLD",
+        "CONIFEROUS",
+        "SNOWY",
+        "FOREST"
+      ]
+    },
+    {
+      "Flower Forest": [
+        "RARE",
         "FOREST",
-        "DENSE"
+        "HILLS"
+      ]
+    },
+    {
+      "Extreme Hills M": [
+        "MOUNTAIN",
+        "SPARSE",
+        "RARE"
+      ]
+    },
+    {
+      "Desert M": [
+        "HOT",
+        "SANDY",
+        "RARE",
+        "DRY"
       ]
     },
     {
       "Cold Taiga Hills": [
         "COLD",
+        "CONIFEROUS",
         "SNOWY",
         "FOREST",
-        "HILLS",
-        "CONIFEROUS"
+        "HILLS"
       ]
     },
     {
-      "Jungle": [
-        "JUNGLE",
-        "WET",
-        "HOT",
-        "DENSE"
-      ]
-    },
-    {
-      "Deep Ocean": [
-        "WATER",
-        "OCEAN"
-      ]
-    },
-    {
-      "Sunflower Plains": [
-        "PLAINS",
+      "Roofed Forest M": [
+        "DENSE",
+        "FOREST",
+        "MOUNTAIN",
+        "SPOOKY",
         "RARE"
       ]
     },
     {
-      "Taiga": [
+      "Savanna Plateau": [
+        "SAVANNA",
+        "HOT",
+        "PLAINS",
+        "SPARSE",
+        "RARE"
+      ]
+    },
+    {
+      "Swampland M": [
+        "SWAMP",
+        "HILLS",
+        "WET",
+        "RARE"
+      ]
+    },
+    {
+      "The End": [
+        "END",
+        "COLD",
+        "DRY"
+      ]
+    },
+    {
+      "Roofed Forest": [
+        "DENSE",
+        "SPOOKY",
+        "FOREST"
+      ]
+    },
+    {
+      "Mega Taiga": [
         "COLD",
         "CONIFEROUS",
         "FOREST"
@@ -335,38 +344,38 @@
       ]
     },
     {
-      "Extreme Hills+ M": [
+      "Savanna M": [
+        "SAVANNA",
+        "HOT",
         "MOUNTAIN",
+        "SPARSE",
         "RARE",
-        "SPARSE"
+        "DRY"
       ]
     },
     {
-      "Birch Forest M": [
-        "FOREST",
-        "HILLS",
-        "DENSE",
-        "RARE"
+      "MushroomIsland": [
+        "RARE",
+        "MUSHROOM"
       ]
     },
     {
       "JungleHills": [
-        "JUNGLE",
-        "WET",
-        "HILLS",
+        "DENSE",
         "HOT",
-        "DENSE"
+        "HILLS",
+        "WET",
+        "JUNGLE"
       ]
     },
     {
-      "Plains": [
-        "PLAINS"
-      ]
-    },
-    {
-      "Mesa": [
-        "SANDY",
-        "MESA"
+      "Savanna Plateau M": [
+        "SAVANNA",
+        "HOT",
+        "HILLS",
+        "SPARSE",
+        "RARE",
+        "DRY"
       ]
     },
     {
@@ -376,161 +385,225 @@
       ]
     },
     {
-      "Swampland": [
-        "WET",
-        "SWAMP"
+      "Extreme Hills Edge": [
+        "MOUNTAIN"
       ]
     },
     {
-      "MushroomIslandShore": [
-        "BEACH",
-        "MUSHROOM",
-        "RARE"
+      "River": [
+        "WATER",
+        "RIVER"
       ]
     },
     {
-      "Birch Forest": [
-        "FOREST"
+      "Ice Plains": [
+        "WASTELAND",
+        "COLD",
+        "SNOWY"
       ]
     },
     {
-      "Savanna Plateau M": [
-        "DRY",
+      "The Void": [
+        "VOID"
+      ]
+    },
+    {
+      "FrozenRiver": [
+        "WATER",
+        "RIVER",
+        "COLD",
+        "SNOWY"
+      ]
+    },
+    {
+      "JungleEdge M": [
+        "HOT",
         "HILLS",
         "SPARSE",
-        "HOT",
-        "SAVANNA",
-        "RARE"
-      ]
-    },
-    {
-      "The End": [
-        "COLD",
-        "END",
-        "DRY"
-      ]
-    },
-    {
-      "Extreme Hills+": [
-        "MOUNTAIN",
-        "FOREST",
-        "SPARSE"
-      ]
-    },
-    {
-      "Cold Taiga M": [
-        "COLD",
-        "SNOWY",
-        "MOUNTAIN",
-        "FOREST",
-        "CONIFEROUS",
-        "RARE"
-      ]
-    },
-    {
-      "Savanna M": [
-        "MOUNTAIN",
-        "DRY",
-        "SPARSE",
-        "HOT",
-        "SAVANNA",
-        "RARE"
-      ]
-    },
-    {
-      "Extreme Hills M": [
-        "MOUNTAIN",
         "RARE",
-        "SPARSE"
+        "JUNGLE"
       ]
     },
     {
-      "Forest": [
+      "Taiga": [
+        "COLD",
+        "CONIFEROUS",
         "FOREST"
+      ]
+    },
+    {
+      "TaigaHills": [
+        "COLD",
+        "CONIFEROUS",
+        "FOREST",
+        "HILLS"
       ]
     },
     {
       "Mega Taiga Hills": [
         "COLD",
+        "CONIFEROUS",
         "FOREST",
-        "HILLS",
-        "CONIFEROUS"
+        "HILLS"
+      ]
+    },
+    {
+      "Cold Taiga M": [
+        "COLD",
+        "CONIFEROUS",
+        "SNOWY",
+        "FOREST",
+        "MOUNTAIN",
+        "RARE"
       ]
     }
   ],
   "Types": [
     {
-      "RIVER": [
-        "River",
-        "FrozenRiver"
-      ]
-    },
-    {
-      "SNOWY": [
-        "FrozenOcean",
-        "Cold Taiga M",
-        "Cold Taiga Hills",
-        "FrozenRiver",
-        "Cold Beach",
-        "Ice Plains",
-        "Cold Taiga",
-        "Ice Plains Spikes",
-        "Ice Mountains"
-      ]
-    },
-    {
-      "PLAINS": [
-        "Plains",
-        "Savanna",
-        "Savanna Plateau",
-        "Sunflower Plains"
-      ]
-    },
-    {
       "BEACH": [
+        "Beach",
         "MushroomIslandShore",
         "Stone Beach",
-        "Beach",
         "Cold Beach"
       ]
     },
     {
-      "OCEAN": [
-        "Deep Ocean",
-        "Ocean",
-        "FrozenOcean"
+      "DENSE": [
+        "Birch Forest M",
+        "Roofed Forest",
+        "Jungle M",
+        "Birch Forest Hills M",
+        "JungleHills",
+        "Roofed Forest M",
+        "Redwood Taiga Hills M",
+        "Jungle",
+        "Mega Spruce Taiga"
+      ]
+    },
+    {
+      "SAVANNA": [
+        "Savanna Plateau M",
+        "Savanna Plateau",
+        "Mesa Plateau M",
+        "Mesa (Bryce)",
+        "Savanna M",
+        "Savanna"
+      ]
+    },
+    {
+      "SNOWY": [
+        "Ice Plains",
+        "Cold Taiga Hills",
+        "Ice Plains Spikes",
+        "Cold Beach",
+        "Ice Mountains",
+        "FrozenRiver",
+        "Cold Taiga",
+        "FrozenOcean",
+        "Cold Taiga M"
       ]
     },
     {
       "SANDY": [
+        "Mesa Plateau",
         "Mesa Plateau F",
-        "DesertHills",
         "Desert",
         "Mesa",
-        "Mesa Plateau",
+        "DesertHills",
         "Desert M"
       ]
     },
     {
-      "WET": [
-        "Swampland M",
+      "COLD": [
+        "Mega Taiga",
+        "Ice Plains Spikes",
+        "Cold Beach",
+        "Cold Taiga",
+        "FrozenOcean",
+        "Taiga M",
+        "Ice Plains",
+        "Cold Taiga Hills",
+        "Ice Mountains",
+        "FrozenRiver",
+        "Taiga",
+        "TaigaHills",
+        "The End",
+        "Mega Taiga Hills",
+        "Cold Taiga M"
+      ]
+    },
+    {
+      "JUNGLE": [
         "JungleHills",
-        "JungleEdge",
+        "JungleEdge M",
         "Jungle M",
-        "Swampland",
+        "Jungle",
+        "JungleEdge"
+      ]
+    },
+    {
+      "HOT": [
+        "Mesa Plateau M",
+        "Desert",
+        "Jungle M",
+        "Savanna M",
+        "Savanna",
+        "Hell",
+        "JungleHills",
+        "Savanna Plateau M",
+        "Mesa (Bryce)",
+        "Desert M",
+        "DesertHills",
+        "Mesa Plateau F M",
+        "JungleEdge",
+        "Savanna Plateau",
+        "JungleEdge M",
         "Jungle"
       ]
     },
     {
+      "MESA": [
+        "Mesa Plateau",
+        "Mesa",
+        "Mesa Plateau F"
+      ]
+    },
+    {
       "CONIFEROUS": [
-        "Cold Taiga M",
         "Cold Taiga Hills",
-        "Cold Taiga",
         "Mega Taiga",
+        "Cold Taiga",
         "Taiga",
         "Taiga M",
         "TaigaHills",
-        "Mega Taiga Hills"
+        "Mega Taiga Hills",
+        "Cold Taiga M"
+      ]
+    },
+    {
+      "WET": [
+        "Swampland",
+        "JungleHills",
+        "Jungle M",
+        "Jungle",
+        "Swampland M",
+        "JungleEdge"
+      ]
+    },
+    {
+      "SPARSE": [
+        "Mesa Plateau M",
+        "Extreme Hills+",
+        "Savanna M",
+        "Mesa Plateau F M",
+        "Savanna",
+        "Extreme Hills+ M",
+        "Mesa Plateau F",
+        "Savanna Plateau M",
+        "Savanna Plateau",
+        "JungleEdge M",
+        "Extreme Hills M",
+        "Mesa (Bryce)"
       ]
     },
     {
@@ -539,75 +612,67 @@
       ]
     },
     {
-      "DRY": [
-        "The End",
-        "Mesa Plateau M",
-        "Savanna M",
-        "Hell",
-        "DesertHills",
-        "Desert",
-        "Desert M",
-        "Mesa Plateau F M",
-        "Mesa (Bryce)",
-        "Savanna Plateau M"
-      ]
-    },
-    {
-      "HILLS": [
-        "Swampland M",
-        "JungleHills",
-        "JungleEdge M",
-        "Extreme Hills",
-        "DesertHills",
-        "Redwood Taiga Hills M",
-        "ForestHills",
-        "TaigaHills",
-        "Savanna Plateau M",
-        "Flower Forest",
-        "Cold Taiga Hills",
-        "Mesa Plateau F M",
-        "Birch Forest Hills",
-        "Ice Plains Spikes",
-        "Mega Taiga Hills",
-        "Birch Forest M"
-      ]
-    },
-    {
-      "WATER": [
-        "Deep Ocean",
-        "Ocean",
+      "OCEAN": [
         "FrozenOcean",
+        "Ocean",
+        "Deep Ocean"
+      ]
+    },
+    {
+      "RIVER": [
         "River",
         "FrozenRiver"
       ]
     },
     {
-      "RARE": [
-        "JungleEdge M",
-        "Jungle M",
-        "Mesa Plateau M",
-        "Mesa (Bryce)",
-        "Redwood Taiga Hills M",
-        "JungleEdge",
-        "Savanna Plateau",
-        "Mega Spruce Taiga",
-        "Birch Forest Hills M",
-        "Mesa Plateau F M",
+      "PLAINS": [
         "Sunflower Plains",
-        "Taiga M",
-        "Ice Plains Spikes",
-        "Extreme Hills+ M",
-        "Birch Forest M",
-        "Swampland M",
-        "Desert M",
-        "MushroomIslandShore",
-        "Savanna Plateau M",
+        "Savanna Plateau",
+        "Plains",
+        "Savanna"
+      ]
+    },
+    {
+      "RARE": [
+        "Mesa Plateau M",
+        "Jungle M",
         "Flower Forest",
-        "Cold Taiga M",
+        "Extreme Hills M",
+        "Taiga M",
+        "Desert M",
+        "Birch Forest M",
+        "Birch Forest Hills M",
+        "JungleEdge",
+        "Roofed Forest M",
+        "Savanna Plateau",
+        "Swampland M",
+        "Ice Plains Spikes",
         "Savanna M",
         "MushroomIsland",
-        "Roofed Forest M",
-        "Extreme Hills M"
+        "Savanna Plateau M",
+        "MushroomIslandShore",
+        "Redwood Taiga Hills M",
+        "Mesa (Bryce)",
+        "Sunflower Plains",
+        "Mesa Plateau F M",
+        "Extreme Hills+ M",
+        "JungleEdge M",
+        "Mega Spruce Taiga",
+        "Cold Taiga M"
+      ]
+    },
+    {
+      "DRY": [
+        "Mesa Plateau M",
+        "Desert",
+        "DesertHills",
+        "Savanna M",
+        "Mesa Plateau F M",
+        "Hell",
+        "Savanna Plateau M",
+        "Mesa (Bryce)",
+        "Desert M",
+        "The End"
       ]
     },
     {
@@ -616,93 +681,9 @@
       ]
     },
     {
-      "JUNGLE": [
-        "JungleHills",
-        "JungleEdge",
-        "JungleEdge M",
-        "Jungle M",
-        "Jungle"
-      ]
-    },
-    {
-      "FOREST": [
-        "Birch Forest",
-        "Cold Taiga",
-        "Mega Taiga",
-        "Redwood Taiga Hills M",
-        "ForestHills",
-        "TaigaHills",
-        "JungleEdge",
-        "Flower Forest",
-        "Roofed Forest",
-        "Extreme Hills+",
-        "Cold Taiga M",
-        "Cold Taiga Hills",
-        "Roofed Forest M",
-        "Mega Spruce Taiga",
-        "Birch Forest Hills M",
-        "Birch Forest Hills",
-        "Taiga",
-        "Taiga M",
-        "Forest",
-        "Mega Taiga Hills",
-        "Birch Forest M"
-      ]
-    },
-    {
-      "VOID": [
-        "The Void"
-      ]
-    },
-    {
-      "HOT": [
-        "JungleHills",
-        "JungleEdge M",
-        "Jungle M",
-        "Mesa Plateau M",
-        "DesertHills",
-        "Desert",
-        "Savanna",
-        "Desert M",
-        "Mesa (Bryce)",
-        "Savanna Plateau M",
-        "JungleEdge",
-        "Savanna Plateau",
-        "Savanna M",
-        "Hell",
-        "Jungle",
-        "Mesa Plateau F M"
-      ]
-    },
-    {
-      "MOUNTAIN": [
-        "Extreme Hills Edge",
-        "Jungle M",
-        "Mesa Plateau M",
-        "Extreme Hills",
-        "Mesa (Bryce)",
-        "Ice Mountains",
-        "Extreme Hills+",
-        "Cold Taiga M",
-        "Savanna M",
-        "Roofed Forest M",
-        "Birch Forest Hills M",
-        "Extreme Hills M",
-        "Taiga M",
-        "Extreme Hills+ M"
-      ]
-    },
-    {
-      "MESA": [
-        "Mesa Plateau F",
-        "Mesa",
-        "Mesa Plateau"
-      ]
-    },
-    {
       "SWAMP": [
-        "Swampland M",
-        "Swampland"
+        "Swampland",
+        "Swampland M"
       ]
     },
     {
@@ -711,38 +692,21 @@
       ]
     },
     {
-      "SPARSE": [
-        "Mesa Plateau F",
-        "JungleEdge M",
-        "Extreme Hills+",
-        "Savanna Plateau",
+      "MOUNTAIN": [
         "Mesa Plateau M",
+        "Jungle M",
         "Savanna M",
-        "Savanna",
         "Extreme Hills M",
-        "Mesa Plateau F M",
-        "Mesa (Bryce)",
-        "Extreme Hills+ M",
-        "Savanna Plateau M"
-      ]
-    },
-    {
-      "COLD": [
-        "FrozenOcean",
-        "FrozenRiver",
-        "Cold Beach",
-        "Ice Plains",
-        "Cold Taiga",
-        "Mega Taiga",
-        "Ice Mountains",
-        "TaigaHills",
-        "The End",
-        "Cold Taiga M",
-        "Cold Taiga Hills",
-        "Taiga",
         "Taiga M",
-        "Ice Plains Spikes",
-        "Mega Taiga Hills"
+        "Mesa (Bryce)",
+        "Extreme Hills",
+        "Extreme Hills Edge",
+        "Extreme Hills+",
+        "Birch Forest Hills M",
+        "Extreme Hills+ M",
+        "Ice Mountains",
+        "Roofed Forest M",
+        "Cold Taiga M"
       ]
     },
     {
@@ -752,32 +716,68 @@
       ]
     },
     {
+      "VOID": [
+        "The Void"
+      ]
+    },
+    {
+      "WATER": [
+        "River",
+        "Ocean",
+        "FrozenRiver",
+        "Deep Ocean",
+        "FrozenOcean"
+      ]
+    },
+    {
+      "HILLS": [
+        "Ice Plains Spikes",
+        "ForestHills",
+        "Birch Forest Hills",
+        "JungleHills",
+        "Savanna Plateau M",
+        "Redwood Taiga Hills M",
+        "Flower Forest",
+        "Extreme Hills",
+        "Cold Taiga Hills",
+        "Birch Forest M",
+        "DesertHills",
+        "Mesa Plateau F M",
+        "JungleEdge M",
+        "Swampland M",
+        "TaigaHills",
+        "Mega Taiga Hills"
+      ]
+    },
+    {
+      "FOREST": [
+        "Forest",
+        "Roofed Forest",
+        "Mega Taiga",
+        "ForestHills",
+        "Birch Forest",
+        "Birch Forest Hills",
+        "Redwood Taiga Hills M",
+        "Cold Taiga",
+        "Flower Forest",
+        "Taiga M",
+        "Cold Taiga Hills",
+        "Birch Forest M",
+        "Extreme Hills+",
+        "Birch Forest Hills M",
+        "JungleEdge",
+        "Roofed Forest M",
+        "Taiga",
+        "Mega Spruce Taiga",
+        "TaigaHills",
+        "Mega Taiga Hills",
+        "Cold Taiga M"
+      ]
+    },
+    {
       "MUSHROOM": [
         "MushroomIsland",
         "MushroomIslandShore"
-      ]
-    },
-    {
-      "DENSE": [
-        "JungleHills",
-        "Roofed Forest",
-        "Jungle M",
-        "Jungle",
-        "Roofed Forest M",
-        "Mega Spruce Taiga",
-        "Birch Forest Hills M",
-        "Redwood Taiga Hills M",
-        "Birch Forest M"
-      ]
-    },
-    {
-      "SAVANNA": [
-        "Savanna",
-        "Savanna Plateau",
-        "Mesa (Bryce)",
-        "Mesa Plateau M",
-        "Savanna M",
-        "Savanna Plateau M"
       ]
     }
   ]

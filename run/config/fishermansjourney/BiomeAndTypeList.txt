@@ -1,96 +1,96 @@
 ###################################
 Biomes found during minecraft start
 ###################################
-JungleEdge M
-Ocean
-Jungle M
 Beach
-Desert
-Mesa Plateau
-Ice Plains
-ForestHills
-Savanna Plateau
-Mega Spruce Taiga
-Birch Forest Hills M
-Mesa Plateau F M
-Taiga M
-Mesa Plateau F
-Swampland M
-River
+Mesa Plateau M
+Jungle M
+Birch Forest Hills
+Deep Ocean
 Stone Beach
-FrozenRiver
-Cold Beach
+FrozenOcean
+Taiga M
+Birch Forest M
+Birch Forest Hills M
+JungleEdge
+Ice Mountains
+Mesa Plateau F
+Jungle
+Mesa Plateau
+Desert
+ForestHills
+Hell
+MushroomIslandShore
+Redwood Taiga Hills M
+Mesa (Bryce)
+Mesa
+Plains
+Sunflower Plains
+Extreme Hills+
 DesertHills
-Desert M
+Mesa Plateau F M
+Extreme Hills+ M
+Mega Spruce Taiga
+Ocean
+Forest
+Cold Beach
+Savanna
+Birch Forest
+Swampland
 Cold Taiga
 Flower Forest
-The Void
-Hell
-MushroomIsland
-Roofed Forest M
-Birch Forest Hills
-Extreme Hills Edge
-FrozenOcean
-Mesa Plateau M
-Savanna
-Mesa (Bryce)
-Mega Taiga
-Redwood Taiga Hills M
-Ice Mountains
-TaigaHills
-JungleEdge
-Roofed Forest
-Cold Taiga Hills
-Jungle
-Deep Ocean
-Sunflower Plains
-Taiga
-Ice Plains Spikes
-Extreme Hills+ M
-Birch Forest M
-JungleHills
-Plains
-Mesa
-Extreme Hills
-Swampland
-MushroomIslandShore
-Birch Forest
-Savanna Plateau M
-The End
-Extreme Hills+
-Cold Taiga M
-Savanna M
 Extreme Hills M
-Forest
+Desert M
+Cold Taiga Hills
+Roofed Forest M
+Savanna Plateau
+Swampland M
+The End
+Roofed Forest
+Mega Taiga
+Ice Plains Spikes
+Savanna M
+MushroomIsland
+JungleHills
+Savanna Plateau M
+Extreme Hills
+Extreme Hills Edge
+River
+Ice Plains
+The Void
+FrozenRiver
+JungleEdge M
+Taiga
+TaigaHills
 Mega Taiga Hills
+Cold Taiga M
 ########################################
 Biome Types found during minecraft start
 ########################################
-RIVER
-SNOWY
-PLAINS
 BEACH
-OCEAN
-SANDY
-WET
-CONIFEROUS
-END
-DRY
-HILLS
-WATER
-RARE
-WASTELAND
-JUNGLE
-FOREST
-VOID
-HOT
-MOUNTAIN
-MESA
-SWAMP
-NETHER
-SPARSE
-COLD
-SPOOKY
-MUSHROOM
 DENSE
 SAVANNA
+SNOWY
+SANDY
+COLD
+JUNGLE
+HOT
+MESA
+CONIFEROUS
+WET
+SPARSE
+END
+OCEAN
+RIVER
+PLAINS
+RARE
+DRY
+WASTELAND
+SWAMP
+NETHER
+MOUNTAIN
+SPOOKY
+VOID
+WATER
+HILLS
+FOREST
+MUSHROOM

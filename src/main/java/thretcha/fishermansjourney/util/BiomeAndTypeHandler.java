@@ -23,8 +23,10 @@ public class BiomeAndTypeHandler {
 
     public static Set<BiomeDictionary.Type> biomeTypeSet = new HashSet<>();
     public static Set<Biome> biomeSet = new HashSet<>();
+
     public static Multimap<Biome,BiomeDictionary.Type> typesWithBiomes = HashMultimap.create();
     public static Multimap<BiomeDictionary.Type,Biome> biomesWithType = HashMultimap.create();
+
     private static Path biomeAndTypeFile=Paths.get(CommonProxy.configDirectory.toString()+"\\BiomeAndTypeList.txt");
     private static Path biomeAndTypeJson=Paths.get(CommonProxy.configDirectory.toString()+"\\BiomesWithTypes.json");
     private static Gson gson =  new GsonBuilder().setPrettyPrinting().create();
@@ -36,8 +38,8 @@ public class BiomeAndTypeHandler {
             FishermansJourneyMod.logger.log(Level.ERROR,e.getStackTrace());
         }
         try {
-            Files.createFile(Paths.get(CommonProxy.configDirectory.toString()+"\\BiomeAndTypeList.txt"));
-            Files.createFile(Paths.get(CommonProxy.configDirectory.toString()+"\\BiomesWithTypes.json"));
+            Files.createFile(biomeAndTypeFile);
+            Files.createFile(biomeAndTypeJson);
         } catch (IOException e) {
             FishermansJourneyMod.logger.log(Level.ERROR,e.getStackTrace());
         }
@@ -79,31 +81,20 @@ public class BiomeAndTypeHandler {
             stringBuilder.append(t.getName()+"\n");
         }
 
-        BufferedWriter writer=null;
-
-        try
+        //try-with-resource auto closes file once it's no longer needed
+        try(BufferedWriter writer = Files.newBufferedWriter(biomeAndTypeFile, StandardCharsets.UTF_8))
         {
-            writer = Files.newBufferedWriter(biomeAndTypeFile, StandardCharsets.UTF_8);
             writer.write(stringBuilder.toString(),0,stringBuilder.toString().length());
         }
         catch (IOException e)
         {
             FishermansJourneyMod.logger.log(Level.ERROR,e.getStackTrace());
         }
-        finally {
-            if (writer != null) {
-                try {
-                    writer.close();
-                } catch (IOException e) {
-                    FishermansJourneyMod.logger.log(Level.ERROR, e.getStackTrace());
-                }
-            }
-        }
     }
 
     private static void writeToBiomeAndTypeJsonFile(){
-        try {
-            JsonWriter writer =gson.newJsonWriter(Files.newBufferedWriter(biomeAndTypeJson, StandardCharsets.UTF_8));
+        //try-with-resource auto closes file once it's no longer needed
+        try(JsonWriter writer =gson.newJsonWriter(Files.newBufferedWriter(biomeAndTypeJson, StandardCharsets.UTF_8))) {
             writer.beginObject();
 
             writer.name("Biomes");

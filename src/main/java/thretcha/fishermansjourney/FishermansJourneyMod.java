@@ -1,6 +1,5 @@
 package thretcha.fishermansjourney;
 
-import net.minecraft.block.BlockOldLeaf;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
