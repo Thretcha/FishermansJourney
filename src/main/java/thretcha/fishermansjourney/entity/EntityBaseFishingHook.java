@@ -29,6 +29,7 @@ import net.minecraft.world.storage.loot.LootContext;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import thretcha.fishermansjourney.FishermansJourneyMod;
+import thretcha.fishermansjourney.proxy.CommonProxy;
 
 import java.util.List;
 
@@ -554,7 +555,7 @@ public class EntityBaseFishingHook extends EntityFishHook
                 LootContext.Builder lootcontext$builder = new LootContext.Builder((WorldServer)this.world);
                 lootcontext$builder.withLuck((float)this.luck + this.angler.getLuck());
 
-                for (ItemStack itemstack : this.world.getLootTableManager().getLootTableFromLocation(new ResourceLocation(FishermansJourneyMod.MODID, "gameplay/fishingbase")).generateLootForPools(this.rand, lootcontext$builder.build()))
+                for (ItemStack itemstack : this.world.getLootTableManager().getLootTableFromLocation(CommonProxy.baseLootTable).generateLootForPools(this.rand, lootcontext$builder.build()))
 
                 {
                     EntityItem entityitem = new EntityItem(this.world, this.posX, this.posY, this.posZ, itemstack);

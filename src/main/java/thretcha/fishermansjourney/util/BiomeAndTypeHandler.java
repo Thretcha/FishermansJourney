@@ -7,6 +7,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonWriter;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.BiomeDictionary;
+import net.minecraftforge.common.BiomeManager;
 import org.apache.logging.log4j.Level;
 import thretcha.fishermansjourney.FishermansJourneyMod;
 import thretcha.fishermansjourney.proxy.CommonProxy;
@@ -141,4 +142,37 @@ public class BiomeAndTypeHandler {
             FishermansJourneyMod.logger.log(Level.ERROR, e.getStackTrace());
         }
     }
+
+    public static boolean isBiomeOfType(Biome biome, BiomeDictionary.Type type){
+        return BiomeAndTypeHandler.typesWithBiomes.get(biome).contains(type);
+    }
+
+    public static boolean isValidBiomeType(String type){
+        for(BiomeDictionary.Type t : biomeTypeSet)
+        {
+            if(t.getName().equals(type.toUpperCase()))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    //returns the correct BiomeDictionary.Type for the parsed String
+    //if no Biome exists it will return null
+    //make sure to use isValidBiomeType first to avoid NullPointerExceptions
+    public static BiomeDictionary.Type getBiomeType(String type){
+        for(BiomeDictionary.Type t : biomeTypeSet)
+        {
+            if(t.getName().equals(type.toUpperCase()))
+            {
+                return t;
+            }
+        }
+
+        return null;
+    }
+
+    //input String biomeType name => output biomeType
 }
